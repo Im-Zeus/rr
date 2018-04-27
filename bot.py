@@ -2,7 +2,7 @@ import telebot
 import redis
 r = redis.Redis('localhost')
 from tempmail import TempMail
-token = 'TOKEN'
+token = '519387966:AAE1rKumStmwL0FfwClBxL_k3QU-A3dtxEQ'
 bot = telebot.TeleBot(token)
 user = bot.get_me().username
 @bot.message_handler(commands=['start'])
